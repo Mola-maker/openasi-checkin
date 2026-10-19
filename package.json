@@ -1,0 +1,22 @@
+{
+  "name": "openasi-checkin",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "OpenASI (app.openasi.bitmiracle.cn) 每日自动签到 — 完整版(Playwright) + 轻量版(零依赖)",
+  "bin": {
+    "openasi-checkin": "./checkin.mjs",
+    "openasi-checkin-lite": "./checkin-lite.mjs"
+  },
+  "scripts": {
+    "checkin": "node checkin.mjs",
+    "checkin:lite": "node checkin-lite.mjs",
+    "status": "node checkin.mjs --status",
+    "status:lite": "node checkin-lite.mjs --status",
+    "login": "node checkin.mjs --login",
+    "test": "node checkin.mjs --status --json"
+  },
+  "dependencies": {
+    "playwright-core": "^1.64.0"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "openasi-checkin",
+  "version": "1.0.0",
+  "description": "OpenASI 每日签到：零依赖轻量脚本（模拟真实客户端请求）与 Playwright 完整版（自动刷新会话），支持状态查询与退出码语义。",
+  "author": {
+    "name": "local"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "OpenASI 签到",
+    "shortDescription": "OpenASI daily check-in",
+    "longDescription": "Run and check the daily check-in for OpenASI (app.openasi.bitmiracle.cn). Uses a zero-dependency script that replays the real client request, and falls back to a Playwright session refresh when the token expires.",
+    "developerName": "local",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ]
+  }
+}

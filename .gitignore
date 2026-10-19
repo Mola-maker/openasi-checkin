@@ -1,0 +1,18 @@
+# ===== 敏感 / 运行时数据（绝不提交）=====
+state.json
+state.json.bak*
+browser-profile/
+install.json
+
+# ===== 日志与测试产物 =====
+*.log
+tests/report-latest.txt
+
+# ===== 依赖 =====
+node_modules/
+
+# ===== OS / 编辑器 =====
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
